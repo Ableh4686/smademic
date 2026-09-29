@@ -1,0 +1,13 @@
+﻿=== PING ===
+Status: 200
+Body: {'db': 'MongoDB connected', 'message': 'Flask is running'}
+
+=== REGISTER ===
+Status: 400
+Body: {'error': 'Email already exists'}
+
+=== LOGIN ===
+Status: 200
+Body: {'email': 'admin@smademic.com', 'name': 'Admin', 'role': 'admin', 'token': 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmcmVzaCI6ZmFsc2UsImlhdCI6MTc4MzU0NDIwNywianRpIjoiNWIwZGY4NWEtYjhkNy00MThiLTliN2ItZTk1ZDdjYTI3ZThlIiwidHlwZSI6ImFjY2VzcyIsInN1YiI6ImFkbWluQHNtYWRlbWljLmNvbSIsIm5iZiI6MTc4MzU0NDIwNywiY3NyZiI6IjVkODhmZDliLTY5NzItNGZhYy04OTkyLTViOTdmOTJmMTllOSIsImV4cCI6MTc4MzU0NTEwNywicm9sZSI6ImFkbWluIiwibmFtZSI6IkFkbWluIn0.Rw4vZ2nYZrBlY7JkRzz8aczftiyAGxJkrSH9vo7x3MU'}
+
+TOKEN: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJmcmVzaCI6ZmFsc2UsImlhdCI6MTc4MzU0NDIwNywianRpIjoiNWIwZGY4NWEtYjhkNy00MThiLTliN2ItZTk1ZDdjYTI3ZThlIiwidHlwZSI6ImFjY2VzcyIsInN1YiI6ImFkbWluQHNtYWRlbWljLmNvbSIsIm5iZiI6MTc4MzU0NDIwNywiY3NyZiI6IjVkODhmZDliLTY5NzItNGZhYy04OTkyLTViOTdmOTJmMTllOSIsImV4cCI6MTc4MzU0NTEwNywicm9sZSI6ImFkbWluIiwibmFtZSI6IkFkbWluIn0.Rw4vZ2nYZrBlY7JkRzz8aczftiyAGxJkrSH9vo7x3MU

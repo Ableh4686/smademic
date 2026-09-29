@@ -1,0 +1,20 @@
+=== LIVE RISK PREDICTION TEST ===
+Student Data Mapping:
+  - Calculated Average Grade: 50%
+  - Mapped to UCI Dataset Features:
+      Curricular units 1st sem (grade): 50
+      Curricular units 2nd sem (grade): 50
+      Curricular units 1st sem (approved): 5
+      Curricular units 2nd sem (approved): 5
+      Curricular units 1st sem (enrolled): 6
+      Curricular units 2nd sem (enrolled): 6
+      Age at enrollment: 20
+      Admission grade: 50
+      Previous qualification (grade): 50
+      Unemployment rate: 10.8
+      GDP: 1.74
+
+Model Inference Results:
+  - Prediction: Safe
+  - Confidence: 67.0%
+  - Risk Score: 33.0%

@@ -1,0 +1,21 @@
+Columns: ['Marital status', 'Application mode', 'Application order', 'Course', 'Daytime/evening attendance\t', 'Previous qualification', 'Previous qualification (grade)', 'Nacionality', "Mother's qualification", "Father's qualification", "Mother's occupation", "Father's occupation", 'Admission grade', 'Displaced', 'Educational special needs', 'Debtor', 'Tuition fees up to date', 'Gender', 'Scholarship holder', 'Age at enrollment', 'International', 'Curricular units 1st sem (credited)', 'Curricular units 1st sem (enrolled)', 'Curricular units 1st sem (evaluations)', 'Curricular units 1st sem (approved)', 'Curricular units 1st sem (grade)', 'Curricular units 1st sem (without evaluations)', 'Curricular units 2nd sem (credited)', 'Curricular units 2nd sem (enrolled)', 'Curricular units 2nd sem (evaluations)', 'Curricular units 2nd sem (approved)', 'Curricular units 2nd sem (grade)', 'Curricular units 2nd sem (without evaluations)', 'Unemployment rate', 'Inflation rate', 'GDP', 'Target']
+Target values: ['Dropout' 'Graduate' 'Enrolled']
+Shape: (4424, 37)
+
+=== Model Performance ===
+Accuracy  : 0.8760
+Precision : 0.8785
+Recall    : 0.7834
+
+Classification Report:
+              precision    recall  f1-score   support
+
+        Safe       0.87      0.93      0.90       449
+     At-Risk       0.88      0.78      0.83       277
+
+    accuracy                           0.88       726
+   macro avg       0.88      0.86      0.87       726
+weighted avg       0.88      0.88      0.87       726
+
+
+Model saved as risk_model.pkl

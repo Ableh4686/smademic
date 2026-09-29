@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Sora:wght@600;700;800&family=Inter:wght@400;500;600;700&display=swap');
+
+:root {
+  --bg: #10141B;
+  --panel: #1A2029;
+  --panel-border: #262E3A;
+  --text: #EEF2F6;
+  --muted: #8892A0;
+  --accent: #6C8EF5;
+  --safe: #34D399;
+  --safe-bg: rgba(52, 211, 153, 0.12);
+  --risk: #F87171;
+  --risk-bg: rgba(248, 113, 113, 0.12);
+  --warn: #FBBF24;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background: var(--bg);
+  color: var(--text);
+  font-family: 'Inter', sans-serif;
+  -webkit-font-smoothing: antialiased;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  font-family: 'Sora', sans-serif;
+  margin: 0;
+}
+
+button {
+  font-family: 'Inter', sans-serif;
+  cursor: pointer;
+}
+
+input {
+  font-family: 'Inter', sans-serif;
+}
+
+::selection {
+  background: var(--accent);
+  color: white;
+}
